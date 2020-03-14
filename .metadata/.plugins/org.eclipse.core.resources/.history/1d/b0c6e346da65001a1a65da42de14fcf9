@@ -1,0 +1,43 @@
+package com.Switch;
+
+import java.util.Scanner;
+
+public class Switching {
+
+	public static void main(String[] args) {
+        // String input existiert bereits.
+        // Vervollständige das Programm, sodass zu jedem Monat die
+        // korrekte Anzahl an Tagen ausgegeben wird. Verwende dazu
+        // ein switch-Statement!
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Bitte geben Sie einen Monat ein: ");
+		input = input.next();
+      
+        
+        switch(input){
+            case "Januar":
+            case "März":
+            case "Mai":
+            case "Juli":
+            case "August":
+            case "Oktober":
+            case "Dezember":
+                System.out.println("Der Monat hat 31 Tage");
+                break;
+            case "Februar":
+                System.out.println("Der Monat hat 28 Tage");
+                break;
+            case "April":
+            case "Juni":
+            case "September":
+            case "November":
+                System.out.println("Der Monat hat 30 Tage");
+                break;
+            default: 
+                System.out.println("default");
+        }
+        System.out.println("Fertig!");
+	}
+
+}

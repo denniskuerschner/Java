@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/denniskurschner/Java Udemy/.metadata/.plugins/org.eclipse.jdt.core
+2866272913.index
+3192128126.index
+3389137885.index
+939283709.index
