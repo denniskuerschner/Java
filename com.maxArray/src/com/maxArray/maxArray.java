@@ -10,10 +10,8 @@ public class maxArray {
 			if (max < Element) {
 				max = Element;
 			}
-
 		}
 		System.out.println(max);
-
 	}
 
 }
