@@ -4,7 +4,6 @@ INDEX VERSION 1.131+/Users/denniskurschner/Java Udemy/.metadata/.plugins/org.ecl
 4116362461.index
 2480566030.index
 1308727692.index
-1796666773.index
 939283709.index
 619239752.index
 1068186507.index

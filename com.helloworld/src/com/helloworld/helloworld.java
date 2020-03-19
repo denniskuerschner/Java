@@ -1,6 +1,6 @@
 package com.helloworld;
 
-public class helloworld {
+public class helloWorld {
 
 	public static void main(String[] args) {
 		System.out.println("Hallo Welt");
