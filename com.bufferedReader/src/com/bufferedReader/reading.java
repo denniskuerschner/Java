@@ -8,14 +8,12 @@ import java.io.IOException;
 public class reading {
 
 	public static void main(String[] args) {
-		try {
-			FileReader r = new FileReader("test.txt");
-			BufferedReader b = new BufferedReader(r);
-
+		try (BufferedReader b = new BufferedReader(new FileReader("test.txt"))) {
 			while (b.ready()) {
 				String line = b.readLine();
 				System.out.println(line);
 			}
+			b.close();
 
 		} catch (FileNotFoundException e) {
 			System.out.println("Beim Öffnen der Datei ist ein Fehler aufgetreten");
